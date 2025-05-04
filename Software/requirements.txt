@@ -1,1 +1,25 @@
+Requirements to Run the Code Successfully:
 
+Hardware:
+  ESP8266 NodeMCU board
+  Soil moisture sensor (FC-28)
+  DHT11 sensor
+  5V Relay Module
+  18650 Battery or external power supply
+  Water Pump (3.7–5V compatible)
+  I2C 16x2 LCD display
+  Push Button
+  Connecting wires and breadboard
+
+Software & Libraries:
+  Arduino IDE
+  Installed libraries:
+    1. ESP8266WiFi.h
+    2. BlynkSimpleEsp8266.h
+    3. LiquidCrystal_I2C.h
+    4. DHT.h
+    5. Wire.h
+
+Blynk App (Mobile) with:
+  Virtual pins V0 (Temp), V1 (Humidity), V3 (Moisture), V12 (Pump control button)
+  Auth Token (replace in code)
