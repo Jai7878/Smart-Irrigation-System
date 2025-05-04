@@ -1,1 +1,12 @@
+Electronic Components:
 
+1. ESP8266 (NodeMCU) – Microcontroller used to control the system and connect to Wi-Fi.
+2. Soil Moisture Sensor (FC-28) – Detects moisture level in the soil.
+3. DHT11 Sensor – Measures temperature and humidity.
+4. 5V Relay Module – Controls the power to the water pump.
+5. Water Pump – Used for irrigation, powered via relay.
+6. 18650 Battery – Power supply (3.7V rechargeable Li-ion battery).
+7. Battery Holder – Holds the 18650 battery.
+8. 16x2 I2C LCD Display – Displays data such as temperature, humidity, soil moisture level, and pump status.
+9. Motor ON/OFF Push Button – Manually controls the water pump.
+10. Power Supply Lines – VCC, GND, and signal wires for component connections.
